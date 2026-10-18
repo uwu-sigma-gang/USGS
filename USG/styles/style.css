@@ -1,11 +1,9 @@
 body{
-    
-
-
     font-family: vollkorn;
 }
-
-
+img{
+	width: 100%;
+}
 /********************/
 /*	    Вершина	    */
 /********************/
@@ -20,7 +18,7 @@ header{
 	align-items: center;
 	margin-right: auto;
 	font-size: 16px;
-
+	font-weight: lighter;
 	font-family:Pacifico;
 }
 button{
@@ -35,14 +33,49 @@ button{
 }
 a{
 	text-decoration: none;
+	font-weight: bold;
 	color: black;
 	font-size: 16px;
 }
 
+/********************/
+/*	    Hero	    */
+/********************/
 
-
+main{
+	padding-top: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 32px;
+}
 
 
 footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px;
+	background-color: black;
     font-family: Amatic sc;
+}
+.tf{
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	gap: 8px;
+}
+.af{
+	font-size: 16px;
+	color: white;
+}
+.cop{
+	color: white;
+}
+.ftp{
+	display: flex;
+	
+}
+.logo2{
+	color: white;
 }
